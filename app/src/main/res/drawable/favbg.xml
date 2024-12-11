@@ -1,0 +1,9 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners
+        android:topRightRadius="0dp"
+        android:topLeftRadius="10dp"
+        android:bottomRightRadius="20dp"
+        android:bottomLeftRadius="0dp" /> <!-- Adjust the value as needed for your desired radius -->
+
+    <solid android:color="#2B2B2B" /> <!-- Background color -->
+</shape>

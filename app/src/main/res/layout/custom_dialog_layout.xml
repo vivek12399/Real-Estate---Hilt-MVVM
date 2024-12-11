@@ -1,0 +1,46 @@
+<!-- res/layout/custom_dialog_layout.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/currentLanguage"
+        android:layout_width="wrap_content"
+        android:text="Choose Your Language"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_20sdp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppinsbold"
+        />
+    <Button
+        android:id="@+id/englishLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsregular"
+        android:text="ENGLISH"/>
+
+    <Button
+        android:id="@+id/hindiLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Hindi"/>
+
+    <Button
+        android:id="@+id/chineseLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Chinese"/>
+
+    <Button
+        android:id="@+id/spanishLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Spanish"/>
+</LinearLayout>

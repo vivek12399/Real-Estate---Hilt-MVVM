@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginRegister.IntroductionScreen">
+
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/_30sdp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="NEXT >"
+        android:textAllCaps="true"
+        android:textColor="@color/app_clr"
+        android:textSize="@dimen/_25sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--
+
+
+    <ImageView
+        android:id="@+id/oneBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/one"/>
+    <ImageView
+        android:id="@+id/one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/appicon"
+        android:layout_gravity="end"
+        android:layout_margin="@dimen/_20sdp"/>
+    <TextView
+        android:id="@+id/ScreenOneTxt"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppinsbold"
+        android:padding="@dimen/_15sdp"
+        android:text="LOGIN"
+        android:textAllCaps="true"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:textColor="@color/app_clr"
+        android:textSize="@dimen/_50sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_name"
+        />
+    <TextView
+        android:id="@+id/s1btnnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_margin="@dimen/_20sdp"
+        android:text="NEXT >"
+        android:textAllCaps="true"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:textColor="@color/app_clr"
+        android:textSize="@dimen/_30sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_name"
+        />
+-->
+
+   <!-- <ImageView
+        android:id="@+id/twoBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/two"/>
+    <ImageView
+        android:id="@+id/two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/appicon"
+        android:layout_gravity="start"
+        android:layout_margin="@dimen/_20sdp"/>
+    <TextView
+        android:id="@+id/ScreenTwoTxt"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppinsbold"
+        android:padding="@dimen/_15sdp"
+        android:text="LOGIN"
+        android:textAllCaps="true"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:textColor="@color/app_clr"
+        android:textSize="@dimen/_50sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_name"
+        />
+    <TextView
+        android:id="@+id/s2btnnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_margin="@dimen/_20sdp"
+        android:text="NEXT >"
+        android:textAllCaps="true"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:textColor="@color/app_clr"
+        android:textSize="@dimen/_30sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_name"
+        />-->
+
+  <!--  <ImageView
+        android:id="@+id/threeBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/three"/>
+    <ImageView
+        android:id="@+id/three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/appicon"
+        android:layout_gravity="start"
+        android:layout_margin="@dimen/_20sdp"/>
+    <TextView
+        android:id="@+id/ScreenThreeTxt"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppinsbold"
+        android:padding="@dimen/_15sdp"
+        android:text="LOGIN"
+        android:textAllCaps="true"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:textColor="@color/app_clr"
+        android:textSize="@dimen/_50sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_name"
+        />
+    <TextView
+        android:id="@+id/s3btnnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_margin="@dimen/_20sdp"
+        android:text="NEXT >"
+        android:textAllCaps="true"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:textColor="@color/app_clr"
+        android:textSize="@dimen/_30sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_name"
+        />-->
